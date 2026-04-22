@@ -6,12 +6,6 @@ def main():
 # # used for common cases
     ids = test_cases.keys()
 
-# used for 139
-    # ids= []
-    # for key in test_cases.keys():
-    #     ids.append(key)
-    #     ids.append(key)
-
 #  set the receive addresses
     receive_addresses = []
     with open("receive_address.txt") as f:
