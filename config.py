@@ -1,9 +1,8 @@
 config = {
-	# "attacker_site": b"web-defense.email", 
-	"attacker_site": b"infonet-email.cn",     
+	"attacker_site": b"attacker@attack.com",     
     # attack.com
 	"legitimate_site_address": b"admin@legitimate.com", # From header address displayed to the end-user
-	"victim_address": b"mjr2000@mail.ustc.edu.cn", # RCPT TO and message.To header address, 
+	"victim_address": b"victim@victim.com", # RCPT TO and message.To header address, 
 	"case_id": b"server_ax", #  You can find all case_id using -l option.
        
 	# The following fields are optional
